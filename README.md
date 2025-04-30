@@ -44,3 +44,8 @@ pnpm start
       1 failed
         repro.test.ts:8:1 › is there ───────────────────────────────────────────────────────────────────
     ```
+
+## Links
+
+- https://github.com/microsoft/playwright/issues/35812
+- https://github.com/google/zx/issues/1205
