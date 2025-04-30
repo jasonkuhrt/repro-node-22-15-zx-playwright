@@ -8,13 +8,12 @@ importers:
 
   .:
     dependencies:
-      zx:
-        specifier: 8.4.1
-        version: 8.4.1
-    devDependencies:
       playwright:
         specifier: ^1.52.0
         version: 1.52.0
+      zx:
+        specifier: 8.4.1
+        version: 8.4.1
 
 packages:
 

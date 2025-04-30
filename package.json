@@ -3,13 +3,11 @@
   "version": "0.0.6",
   "type": "module",
   "dependencies": {
+    "playwright": "1.52.0",
     "zx": "8.4.1"
   },
   "scripts": {
     "start": "pnpm install && zx README.md"
-  },
-  "devDependencies": {
-    "playwright": "^1.52.0"
   },
   "packageManager": "pnpm@10.10.0",
   "engines": {

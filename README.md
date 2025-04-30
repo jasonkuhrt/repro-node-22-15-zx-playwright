@@ -1,4 +1,4 @@
-# Repro For Node v22.15.0 + Playwright + ZX
+# Repro For Node@22.15.0 + Playwright@1.52.0 + ZX@8.4.1
 
 Run:
 
