@@ -7,11 +7,13 @@
     "zx": "8.4.1"
   },
   "scripts": {
-    "start": "pnpm install && zx README.md"
+    "check-node-version": "node -e \"if(process.version !== 'v22.15.0') { console.error('\\x1b[31mError: This repro needs Node.js version 22.15.0.\\x1b[0m'); process.exit(1); }\"",
+    "prestart": "npm run check-node-version",
+    "start": "pnpm install && pnpm playwright test"
   },
   "packageManager": "pnpm@10.10.0",
   "engines": {
-    "node": "22.15.x"
+    "node": "22.15.0"
   },
   "engineStrict": true
 }

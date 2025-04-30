@@ -9,7 +9,7 @@ importers:
   .:
     dependencies:
       playwright:
-        specifier: ^1.52.0
+        specifier: 1.52.0
         version: 1.52.0
       zx:
         specifier: 8.4.1
